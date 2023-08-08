@@ -1,4 +1,7 @@
-const heading1 = React.createElement("h1", {}, "Hello India");
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+const heading1 = React.createElement("h1", {}, "Hello Parcel");
 const heading2 = React.createElement("h2", {}, "Hello Vicky");
 const container = React.createElement("div", {}, [heading1, heading2]);
 
